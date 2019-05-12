@@ -214,6 +214,7 @@ Set the website's **Physical path** to the app's folder. The folder contains:
 
 * The *web.config* file that IIS uses to configure the website, including the required redirect rules and file content types.
 * The app's static asset folder.
+* Restart the App website in IIS after installing the URL Rewrite Module if the site is started already.
 
 #### Troubleshooting
 
